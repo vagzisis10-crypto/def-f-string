@@ -1,0 +1,17 @@
+def upgrade_weapon():
+    weapon = {
+        "type" : "Sword",
+        "damage" : 25,
+        "level" : 1
+    }
+    
+    weapon["damage"] = 40
+    weapon["level"] = 2
+    weapon["element"] = "fire"
+    
+    print(f"type:{weapon['type']}")
+    print(f"damage:{weapon['damage']}")
+    print(f"level:{weapon['level']}")
+    print(f"element:{weapon['element']}")
+    
+upgrade_weapon()

@@ -1,0 +1,17 @@
+def update_car():
+    car = {
+        "brand" : " tesla",
+        "battery" : 100,
+        "autopilot" : "no"
+    }
+    
+    car["battery"] = 40
+    car["autopilot"] = "yes"
+    car["software_version"] = 11
+    
+    print(f"brand:{car['brand']}")
+    print(f"battery:{car['battery']}")
+    print(f"autopilot:{car['autopilot']}")
+    print(f"software_version:{car['software_version']}")
+    
+update_car()

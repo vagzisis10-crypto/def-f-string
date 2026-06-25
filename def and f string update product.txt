@@ -1,0 +1,17 @@
+def update_product():
+    product = {
+        "name": "shoes",
+        "price": 80,
+        "stock": 10 
+    }
+    
+    product["price"] = 60
+    product["stock"] = 7
+    product["on_sale"] = "yes"
+    
+    print(f"product: {product['name']}")
+    print(f"price: {product['price']}")
+    print(f"stock: {product['stock']}")
+    print(f"on_sale: {product['on_sale']}")
+        
+update_product()
