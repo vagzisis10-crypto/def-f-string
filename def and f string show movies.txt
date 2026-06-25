@@ -1,0 +1,9 @@
+def show_movies():
+    movies = [{"title": "Inception", "year": 2010},\
+    {"title": "Avatar", "year": 2009}]
+    
+    for i in range(len(movies)):
+        print(f"{i + 1}. Title: {movies[i]['title']} - Year: {movies[i]['year']}")
+        
+show_movies()
+         
