@@ -1,0 +1,10 @@
+def show_students():
+    students = [
+        {"name": "Eleni", "grade": 18},
+        {"name": "Petros", "grade": 15}
+    ]
+    
+    for i in range(len(students)):
+        print(f"{i + 1}. Student: {students[i]['name']} - Grade: {students[i]['grade']}")
+   
+show_students()
